@@ -15,11 +15,11 @@ int main() {
 
 	string path_atual_novo = path_atual.string();
 
-	size_t pos = path_atual_novo.find("libtorch");
+	size_t pos = path_atual_novo.find("TCC_bruto");
 
 	string path_tcc;
 	if (pos != string::npos) {
-		path_tcc = path_atual_novo.substr(0, pos);
+		path_tcc = path_atual_novo.substr(0, pos + 10);
 	}
 
 	string path_modelo = path_tcc + "modelos\\teste.pt";

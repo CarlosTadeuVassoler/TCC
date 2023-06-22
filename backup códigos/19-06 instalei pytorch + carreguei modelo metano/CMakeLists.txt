@@ -2,7 +2,7 @@
 # lógica específica a um projeto aqui.
 #
 
-set(CMAKE_PREFIX_PATH "C:\\Users\\Carlos\\Desktop\\TCC\\libtorch\\libtorch")
+set(CMAKE_PREFIX_PATH "C:\\Users\\Carlos\\Desktop\\TCC_bruto\\libtorch\\libtorch")
 find_package(Torch REQUIRED)
 
 # Adicione a origem ao executável deste projeto.
